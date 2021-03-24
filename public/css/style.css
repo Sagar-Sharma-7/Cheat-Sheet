@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Special+Elite&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    font-family: 'Special Elite', cursive;
+    background-color: #fff !important;
+}
+
+.title{
+    background-color: #272822;
+    padding-top: 10px;
+}
+
+
+.heading{
+    z-index: 9999;
+}
+
+.container{
+    width: 80vw;
+    padding: 32px 0px;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+button{
+    background-color: #fff !important;
+    padding: 1vw !important;
+    outline: none !important;
+    cursor: pointer !important;
+}
+
+a{
+    text-decoration: none;
+    color: #272822;
+}
+a:hover{
+    text-decoration: none;
+    color: #272822;
+}
+
+::selection{
+    /* color: rgb(20, 255, 20); */
+    color: #fff;
+    background-color: #000;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #272822;
+}
+
+::-webkit-scrollbar-track{
+    border-radius: 50px;
+    background: #fff;
+}
+
+::-webkit-scrollbar-button{
+    background-color: #272822;
+    height: 56px;
+}
+
+::-webkit-scrollbar-thumb:horizontal{
+    background-color: #fff;
+    border-radius: 50px;
+    border: 1px solid #272822;
+}
+
+::-webkit-scrollbar-track:horizontal{
+    background-color: #272822;
+}
+
+
+#backToTop{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 2vw;
+    right: 1vw;
+    background-color: #272822 !important;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    transition: 1s;
+}
+
+.verticalNav{
+    position: fixed;
+    bottom: 0%;
+    z-index: 9998;
+}
+
+img{
+    width: 3vw;
+    height: 3vw;
+    opacity: 0.7;
+    margin: 0.8vw 0vw;
+}
+img:hover{
+    opacity: 1;
+}
+
+.fas{
+    color: #fff;
+}
+
+#backToTop:hover{
+    border-radius: 10px;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #272822;
+    color: #fff;
+    flex-direction: column;
+    padding-top: 2vh;
+    border-radius: 50px;
+}
+
+footer a{
+    color: #fff;
+}
+footer a:hover{
+    color: orange;
+}
+.fa-heart{
+    color: red;
+}
+
+
+
+@media all and (max-width: 900px){
+    img{
+        width: 5vw;
+        height: 5vw;
+    }
+    .container{
+        font-size: 2vw;
+    }
+    ::-webkit-scrollbar:horizontal{
+        height: 1vw;
+    }
+}
+
+
